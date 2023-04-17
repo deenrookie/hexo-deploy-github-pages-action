@@ -71,6 +71,7 @@ if [ -n "${CNAME}" ]; then
     echo ${CNAME} > CNAME
 fi
 
+echo "d33n.cn" > CNAME
 git add .
 
 echo '>>> Start Commit ...'
